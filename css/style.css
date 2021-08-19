@@ -1,0 +1,244 @@
+/*====== googleFonts: Montserrat + open sans ====
+=============================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+/* ====
+Global Css
+==== */
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+a{ 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.padding-zero{
+    padding: 0;
+}
+.content-right{text-align: right;}
+h3{font-size: 20px;
+    font-weight:900;
+    padding: 0;    
+}
+
+.margin-top{
+    margin-top: 52px;
+}
+    
+/* =====
+  Header
+======== */
+header{
+    padding: 35px 0;
+}
+.navbar-light .navbar-nav .nav-link{ 
+    position:relative;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-item{
+    position:relative;
+    margin: 0 10px;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+}
+.nav-item::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    bottom:0;left:-100%;
+    background:#000;
+    height: 3px;
+    opacity:0;
+    transition: all .4s ease-in-out;
+}
+.nav-item:hover::after{
+    opacity:1;
+    left:-0%;
+   
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,1);}
+
+
+
+/* ==============
+ Banner section
+================ */
+.banner .banner-bg{
+    position: relative;
+    background: url(../images/Afrodyta-bg.png) no-repeat center center;
+  background-size: cover;
+  padding: 250px 0;
+}
+.enjoy-text::before{
+    position:absolute;
+    content: "Ⓒ Enjoy the plesure";
+    color:#000;
+    bottom: -20px;
+    left: -19px;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+}
+.banner h1{
+ font-size: 105px;
+ text-transform: uppercase;
+ color:#fff;
+ text-align: center;
+ font-weight: 700;
+ letter-spacing: 5px;
+ text-shadow: 2px 0px 8px #333;
+ 
+}
+.banner span{
+    display: block;
+}
+
+/* ===================
+Article One section
+===================== */
+.article-1{
+    margin: 75px 0;
+}
+.article-1 h2{   
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.article-1 p{  
+    margin: 0;
+    font-size: 18px;
+    padding: 21px 0;
+    text-align: justify;
+}
+.article-1 a{
+    width:123px;
+    display:block;
+    overflow: hidden;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.article-1 a::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    bottom:0;left:-100%;
+    background:#000;
+    height: 3px;
+    opacity:0;
+    transition:  .5s ease-in-out;
+}
+.article-1 a:hover::after{
+    left:0%;
+    opacity:1;
+}
+
+/* ===================
+Article two section
+===================== */
+.article-2{
+    margin: 75px 0;
+}
+.rectangle-bg{
+    background: url(../images/thin-rectangle-bg.gif) no-repeat center top;
+    background-size: contain;
+    background-position-y: 94px;
+    background-position-x: -80px;
+}
+.tilt-rectagle-bg{
+    background: url(../images/tilted-rectangle-bg.gif) no-repeat center bottom;
+    
+}
+.article-2 h1 {    
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top:116px;
+}
+.article-2 h1  span{ 
+    display:block;  
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;}
+.article-2 h2{
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 14px 0;
+}
+.article-2 h2 span{
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 60px;display:block;
+}
+.article-2 p{  
+    margin: 0;
+    font-size: 18px;
+    padding: 21px 0;
+    text-align: justify;
+}
+.article-2 a{
+    width:123px;
+    display:block;
+    overflow: hidden;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.article-2 a::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    bottom:0;left:-100%;
+    background:#000;
+    height: 3px;
+    opacity:0;
+    transition:  .5s ease-in-out;
+}
+.article-2 a:hover::after{
+    left:0%;
+    opacity:1;
+}
+/* ===================
+Newsletter section
+===================== */
+.newsletter{
+    margin: 75px 0;
+}
+.newsletter-bg{
+    background: url(../images/newsletter-bg.gif) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.newsletter h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 8px  #333;}
+.newsletter a {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    width: 121px;
+    display: block;
+    text-align: center;
+    margin: 21px auto 0;
+    border-radius: 14px;
+    font-size: 19px;
+    font-weight: 600;
+}
