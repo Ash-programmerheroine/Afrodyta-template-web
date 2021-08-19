@@ -14,6 +14,11 @@ a{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+    margin:0;padding: 0;
+    text-align: center;
+}
 .padding-zero{
     padding: 0;
 }
@@ -172,7 +177,7 @@ Article two section
     font-weight: 700;
     color: #000;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 42px;
     margin: 14px 0;
 }
 .article-2 h2 span{
@@ -211,6 +216,7 @@ Article two section
     left:0%;
     opacity:1;
 }
+
 /* ===================
 Newsletter section
 ===================== */
@@ -242,3 +248,126 @@ Newsletter section
     font-size: 19px;
     font-weight: 600;
 }
+
+/* ===================
+Information section
+===================== */
+.information{
+    margin: 75px 0;
+}
+
+.information ul li{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin: 0 10px;
+}
+.information p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 42px 106px;
+    line-height: 37px;
+}
+
+/* ===================
+categories section
+===================== */
+.categories{
+    margin: 100px 0;
+}
+.category-bg-1{
+    background: url(../images/categories-pic-1.gif) no-repeat center top;
+    background-size: contain;
+    padding: 250px 0;
+}
+.category-bg-2{
+    background: url(../images/categories-pic-2.gif) no-repeat center top;
+    padding: 250px 0px;
+    background-size: contain;
+    background-position-x: 8px;
+    
+}
+.category-bg-3{
+    background: url(../images/categories-pic-3.gif) no-repeat center top;
+    padding: 250px 0;
+    background-size: contain;
+    background-position-x: 8px;
+}
+.categories h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-shadow: 0px 1px 8px  #333;
+}
+
+/* ===================
+Article four section
+===================== */
+.article-4{
+    margin: 75px 0;
+}
+.article-4 h2{
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 42px;
+    margin: 0;
+}
+.article-4 span{
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 60px;
+    display:block;
+}
+.article-4 p{
+    margin: 0;
+    font-size: 18px;
+    padding: 21px 0;
+    text-align: justify;
+    padding: 30px 0;
+}
+.article-4 a{
+    width:123px;
+    display:block;
+    overflow: hidden;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.article-4 a::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    bottom:0;left:-100%;
+    background:#000;
+    height: 3px;
+    opacity:0;
+    transition:  .5s ease-in-out;
+}
+.article-4 a:hover::after{
+    left:0%;
+    opacity:1;
+}
+/* ============
+footer section
+================ */
+footer ul li{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin: 0 10px;
+}
+footer p{font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 42px 106px;
+    line-height: 37px;}
