@@ -101,8 +101,8 @@ header{
     position:absolute;
     content: "Ⓒ Enjoy the pleasure";
     color:#000;
-    bottom: -325px;
-    left: -19px;
+    bottom: -9px;
+    left: -11px;
     text-transform: uppercase;
     transform: rotate(270deg);
 }
