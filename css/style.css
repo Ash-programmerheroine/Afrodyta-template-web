@@ -1,3 +1,21 @@
+/* ====author====
+Name:Ashrafi Khanam
+Email:ashrafikhanam.18@gmail.com
+Phone:017xxxxxxxxx
+Website: ashrafikhanam.com
+ */
+
+/* ======color used in template=====
+    1. white- #fff
+    2.black - #000
+    3.social media color---facebook- #3B5998;
+                        twitter -#55ACEE;
+                        youtube- #bb0000;
+                        dribbble-#ea4c89;
+                        instagram-#125688;
+ */
+
+
 /*====== googleFonts: Montserrat + open sans ====
 =============================================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
@@ -19,9 +37,7 @@ ul{
     margin:0;padding: 0;
     text-align: center;
 }
-.padding-zero{
-    padding: 0;
-}
+
 .content-right{text-align: right;}
 h3{font-size: 20px;
     font-weight:900;
@@ -70,6 +86,7 @@ header{
     color: rgba(0,0,0,1);}
 
 
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{padding: 0;}
 
 /* ==============
  Banner section
@@ -84,7 +101,7 @@ header{
     position:absolute;
     content: "Ⓒ Enjoy the plesure";
     color:#000;
-    bottom: -20px;
+    bottom: -325px;
     left: -19px;
     text-transform: uppercase;
     transform: rotate(270deg);
@@ -107,7 +124,7 @@ header{
 Article One section
 ===================== */
 .article-1{
-    margin: 75px 0;
+    padding: 75px 0;
 }
 .article-1 h2{   
     font-weight: 700;
@@ -126,8 +143,8 @@ Article One section
     display:block;
     overflow: hidden;
     color: #000;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     position: relative;
     transition: .5s ease-in-out;
 }
@@ -150,7 +167,7 @@ Article One section
 Article two section
 ===================== */
 .article-2{
-    margin: 75px 0;
+    padding: 75px 0;
 }
 .rectangle-bg{
     background: url(../images/thin-rectangle-bg.gif) no-repeat center top;
@@ -165,14 +182,14 @@ Article two section
 .article-2 h1 {    
     font-size: 80px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 900;
     margin-top:116px;
 }
 .article-2 h1  span{ 
     display:block;  
     font-size: 80px;
     text-transform: uppercase;
-    font-weight: 800;}
+    font-weight: 900;}
 .article-2 h2{
     font-weight: 700;
     color: #000;
@@ -197,8 +214,8 @@ Article two section
     display:block;
     overflow: hidden;
     color: #000;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     position: relative;
     transition: .5s ease-in-out;
 }
@@ -221,7 +238,7 @@ Article two section
 Newsletter section
 ===================== */
 .newsletter{
-    margin: 75px 0;
+    padding: 75px 0;
 }
 .newsletter-bg{
     background: url(../images/newsletter-bg.gif) no-repeat center center;
@@ -233,7 +250,7 @@ Newsletter section
     text-align: center;
     text-transform: uppercase;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 3px;
     text-shadow: 0px 1px 8px  #333;}
 .newsletter a {
@@ -253,13 +270,13 @@ Newsletter section
 Information section
 ===================== */
 .information{
-    margin: 75px 0;
+   padding: 30px 0;
 }
 
 .information ul li{
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     display: inline;
     margin: 0 10px;
 }
@@ -275,7 +292,7 @@ Information section
 categories section
 ===================== */
 .categories{
-    margin: 100px 0;
+    padding: 75px 0;
 }
 .category-bg-1{
     background: url(../images/categories-pic-1.gif) no-repeat center top;
@@ -309,7 +326,11 @@ categories section
 Article four section
 ===================== */
 .article-4{
-    margin: 75px 0;
+    padding: 0 0 75px;
+}
+.last-rectangle-bg{
+    background: url(../images/rectangle-bg.gif) no-repeat center;  
+    background-position-x: 247px;
 }
 .article-4 h2{
     font-weight: 700;
@@ -337,8 +358,8 @@ Article four section
     display:block;
     overflow: hidden;
     color: #000;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     position: relative;
     transition: .5s ease-in-out;
 }
@@ -356,13 +377,17 @@ Article four section
     left:0%;
     opacity:1;
 }
+
 /* ============
 footer section
 ================ */
+footer{
+    padding: 30px 0;
+}
 footer ul li{
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 600;
+    font-weight:700;
     display: inline;
     margin: 0 10px;
 }
@@ -370,4 +395,87 @@ footer p{font-size: 18px;
     text-align: center;
     margin: 0;
     padding: 42px 106px;
-    line-height: 37px;}
+    line-height: 37px;
+}
+.social-media{text-align: center;}
+.social-media   .fa {
+    padding: 14px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 6px;
+}     
+.fa:hover {
+    opacity: 0.8;
+    color: #fff;
+    transform: rotatex(30deg);
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white; }
+      
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+    }
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* =======================
+Media Query css for mobile
+========================== */
+@media (min-width:320px) and (max-width:576px){
+    h3 {font-size: 16px;}
+    .nav-item { margin: 0 87px;}
+    .banner .banner-bg{padding:55px 0;}
+    .enjoy-text::before {bottom: -28px;left: 0; font-size: 9px; transform: rotate(0deg); }
+    .banner h1{font-size: 30px;}
+    .article-1 h2 {font-size: 37px; }
+    .article-1 p{ line-height: 34px;   font-size: 16px;}
+    .article-1 a{padding-bottom: 55px;}
+    .article-2{ padding: 0;}
+    .article-2 h1 {font-size: 50px; margin-bottom: 100px; margin-top: 85px;}
+    .article-2 h1 span {font-size: 50px;}
+    .article-2 h2{font-size: 37px;}
+    .article-2 h2 span {font-size: 49px;}
+    .article-2 p {font-size: 16px;padding: 21px 12px; text-align: right;line-height: 34px;}
+    .information p{  font-size: 16px;padding: 30px 4px;}
+    .information{padding:10px 0;}
+    .information ul li { font-size: 20px; margin: 0px 4px;}
+    .newsletter-bg{    padding: 75px 0;}
+    .newsletter h2{    font-size: 40px;}
+    .newsletter a {font-size: 15px;}
+    .categories {padding: 55px 0;}
+    .categories .category-bg-1 {
+        background: url(../images/categories-pic-1.gif) no-repeat center center;
+        background-size: contain;
+        padding: 150px 0;
+    }
+    .category-bg-2 { background: url(../images/categories-pic-2.gif) no-repeat center center;
+        background-position-x: 4px;
+        padding: 150px 0; background-size: contain; background-position-y: 8px;
+    }
+    .category-bg-3 {
+        background: url(../images/categories-pic-3.gif) no-repeat center center;
+        padding: 150px 0;
+        background-size: contain;
+        background-position-x: 4px; background-position-y: 8px;
+    }
+    .article-4 span {font-size: 50px;}
+    .article-4 h2 {font-size: 32px;margin: 55px 0 22px;}
+    .article-4 p {font-size: 16px;text-align: left;line-height: 34px;padding: 16px 12px;}
+    .article-4 a { margin-left: 10px;}
+    .last-rectangle-bg {background-position-x: 129px;background-position-y: 460px;}   
+    footer p {font-size: 16px;text-align: center;padding: 36px 10px;line-height: 34px;} 
+    footer ul li {font-size: 20px;margin: 0px 4px;line-height: 39px;}
+}
