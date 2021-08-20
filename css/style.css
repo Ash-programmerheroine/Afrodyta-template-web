@@ -438,12 +438,7 @@ Media Query css for mobile
     h3 {font-size: 16px;}
     .nav-item { margin: 0 87px;}
     .banner .banner-bg{padding:55px 0;}
-    .enjoy-text::before {
-        top: 338px;
-        left: 0;
-        font-size: 9px;
-        transform: rotate(0deg);
-        position: fixed; }
+    .enjoy-text::before { top: 338px; left: 0; font-size: 9px; transform: rotate(0deg); }
     .banner h1{font-size: 30px;}
     .article-1 h2 {font-size: 37px; }
     .article-1 p{ line-height: 34px;   font-size: 16px;}
