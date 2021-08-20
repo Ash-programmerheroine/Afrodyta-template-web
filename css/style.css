@@ -114,7 +114,6 @@ header{
  font-weight: 700;
  letter-spacing: 5px;
  text-shadow: 2px 0px 8px #333;
- 
 }
 .banner span{
     display: block;
@@ -439,7 +438,12 @@ Media Query css for mobile
     h3 {font-size: 16px;}
     .nav-item { margin: 0 87px;}
     .banner .banner-bg{padding:55px 0;}
-    .enjoy-text::before {bottom: 0px;left: 0; font-size: 9px; transform: rotate(0deg); }
+    .enjoy-text::before {
+        top: 338px;
+        left: 0;
+        font-size: 9px;
+        transform: rotate(0deg);
+        position: fixed; }
     .banner h1{font-size: 30px;}
     .article-1 h2 {font-size: 37px; }
     .article-1 p{ line-height: 34px;   font-size: 16px;}
@@ -453,8 +457,8 @@ Media Query css for mobile
     .information p{  font-size: 16px;padding: 30px 4px;}
     .information{padding:10px 0;}
     .information ul li { font-size: 20px; margin: 0px 4px;}
-    .newsletter-bg{    padding: 75px 0;}
-    .newsletter h2{    font-size: 40px;}
+    .newsletter-bg{ padding: 75px 0;}
+    .newsletter h2{ font-size: 40px;}
     .newsletter a {font-size: 15px;}
     .categories {padding: 55px 0;}
     .category-bg-2{  margin: 40px 0;}
