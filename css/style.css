@@ -444,11 +444,15 @@ Media Query css for mobile
     .article-1 p{ line-height: 34px;   font-size: 16px;}
     .article-1 a{padding-bottom: 55px;}
     .article-2{ padding: 0;}
+    .rectangle-bg {
+        background: url(../images/thin-rectangle-bg.gif) no-repeat center;
+        background-size: cover;
+        background-position-y: 1027px;background-position-x: 93px;}
     .article-2 h1 {font-size: 50px; margin-bottom: 100px; margin-top: 85px;}
     .article-2 h1 span {font-size: 50px;}
     .article-2 h2{font-size: 37px;}
     .article-2 h2 span {font-size: 49px;}
-    .article-2 p {font-size: 16px;padding: 21px 12px; text-align: right;line-height: 34px;}
+    .article-2 p {font-size: 16px;padding: 21px 0px; text-align: right;line-height: 34px;}
     .information p{  font-size: 16px;padding: 30px 4px;}
     .information{padding:10px 0;}
     .information ul li { font-size: 20px; margin: 0px 4px;}
